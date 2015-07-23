@@ -3,3 +3,81 @@ body{
 	background-color: #1F1F1F;
 	font-weight: 300;
 }
+
+.container{
+	max-width: 800px;
+	background-color: #fff;
+	padding: 25px 50px;
+	margin: 20px auto;
+}
+
+.container-fluid{
+	border-bottom: 1px solid #ddd;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+img{
+	border: 1px solid #ddd;
+	margin: 15px;
+	float: left;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #000;
+	line-height: 100%;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+	padding-top: 30px;
+	font-weight: normal;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 21px;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+}
+
+.social{
+	padding: 30px 0;
+	font-size: 13px;
+	line-height: 26px;
+}
+
+.social a {
+	color: #1f1f1f;
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.social a:first-child {
+	margin-left: 0;
+}
+
+@media only screen and (max-width:396px){
+    h1{
+		font-size: 18px;
+	}
+	
+	h2{
+		font-size: 13px;
+	}
+}
+
+
+
