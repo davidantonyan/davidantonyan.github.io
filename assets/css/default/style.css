@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-	max-width: 800px;
+	max-width: 992px;
 	background-color: #fff;
 	padding: 25px 50px;
 	margin: 20px auto;
@@ -67,6 +67,10 @@ li{
 
 .social a:first-child {
 	margin-left: 0;
+}
+
+.social li {
+	padding-left: 60px;
 }
 
 @media only screen and (max-width:396px){
