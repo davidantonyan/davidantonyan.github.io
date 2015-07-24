@@ -69,10 +69,6 @@ li{
 	margin-left: 0;
 }
 
-.social li {
-	padding-left: 60px;
-}
-
 @media only screen and (max-width:396px){
     h1{
 		font-size: 18px;
