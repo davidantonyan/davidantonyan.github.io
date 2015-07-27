@@ -6,14 +6,12 @@ body{
 
 #content{
 	max-width: 768px;
-	/*min-width: 390px;*/
 	background-color: #fff;
 	padding: 25px 20px;
 	margin: 20px auto;
 }
 
 .row{
-	/*border-bottom: 1px solid #eee;*/
 	padding: 10px;
 }
 
@@ -77,10 +75,6 @@ hr{
 .article h3{
 	margin: 0;
 }
-
-/*#skills .media-body{
-	padding-top: 0px;
-}*/
 
 .article .list-group{
 	margin-top:10px;
