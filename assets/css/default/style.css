@@ -21,14 +21,19 @@ body{
 	padding: 30px 0px;
 }
 
+h2,h4,h3{
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+}
+
 .media-body h2, 
 .media-body h4{
-	font-family: Source Sans Pro, sans-serif;
 	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
 }
 
 img[alt='profile-image']{
-	border: 1px solid #eee;
+	border: 1px solid #ddd;
 }
 
 .list-group{
@@ -41,9 +46,46 @@ img[alt='profile-image']{
 }
 
 hr{
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	margin-top:0;
+	border-color: #ddd;
 }
+
+.article h3{
+	font-size: 20px;
+}
+
+.article p{
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.article .media-body{
+	padding-top: 0;
+	padding-bottom: 15px;
+}
+
+.article .media-left{
+	padding-right: 90px;
+}
+
+.article h4{
+	text-align: right;
+}
+
+.article h3{
+	margin: 0;
+}
+
+/*#skills .media-body{
+	padding-top: 0px;
+}*/
+
+.article .list-group{
+	margin-top:10px;
+}
+
 
 
 
